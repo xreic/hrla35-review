@@ -1,26 +1,27 @@
 # Fullstack Review
 
-## How to run this app
+## GOAL
 
-- run the sql file to populate your database
-- run npm react-dev to start your webpack
-- run npm start to begin server
-- go to localhost:3000 in browser
+As of right now there are only 3 pokemons displayed on the static mockup.html and none of the buttons are functioning:
+
+- WE WANT TO DISPLAY ALL THE POKEMONS IN THE pokemon.json file.
+- WE WANT TO FILTER THE POKEMONS BY TYPE.
 
 ### Step 1
-- build a route on your server that will send back an object that has the pokemon sorted by order and grouped by type
-- What steps should we have to take?
+- Build out server to serve the front end.
+- Create a script for webpack then run the webpack.
+- Refactor your client to dynamically render using the information from your server.
+- You will know if you have done this correctly if you see bulbasaur, ivysaur, venasaur.
 
 ### Step 2
-- Refactor your client to dynamically render using the information from your server
+- Using mongoDB, build out the back-end (establish connection, seeding pokemons from pokemon.json)
+- Ensure that your back end is completely set-up. Check your database folder and your server folder.
 
 ### Step 3
-- Add a dropdown to your client that will allow you to pick an individual type to see
-- Add a route that allows you send a request to just get a pokemons type
+- Create a GET route to retrieve all pokemons.
+- Implement the select options dropdown to filter pokemons by type.
 
-### EXTRA
-- Create an additional route that returns all types
-- Add the ability to add a type to a pokemon
-- Add the ability to add a type to your database
-
-- LOOK AT STEP 3
+### Step 4
+- When clicking on a pokemons name, implement a input field to change the name of the pokemon. (hint: PUT)
+- Create a delete button to delete a pokemon (hint: DELETE)
+- Finish implementing the INSERT button, so you can add a pokemon to the list: Name, Type, Image of anything (hint: INSERT).
