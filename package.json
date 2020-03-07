@@ -1,0 +1,29 @@
+{
+  "name": "hrla35-review",
+  "version": "1.0.0",
+  "description": "Fullstack Review",
+  "main": "webpack.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/parkderick/hrla35-review.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/parkderick/hrla35-review/issues"
+  },
+  "homepage": "https://github.com/parkderick/hrla35-review#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "@babel/core": "^7.8.7",
+    "@babel/plugin-proposal-class-properties": "^7.8.3",
+    "@babel/preset-env": "^7.8.7",
+    "@babel/preset-react": "^7.8.3",
+    "nodemon": "^2.0.2",
+    "webpack": "^4.42.0",
+    "webpack-cli": "^3.3.11"
+  }
+}
